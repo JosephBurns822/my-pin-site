@@ -16,16 +16,16 @@ export default function PinGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <Item>xs=4</Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <Item>xs=4</Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <Item>xs=4</Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <Item>xs=4</Item>
         </Grid>
       </Grid>
