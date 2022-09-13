@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../components/Header'
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
-    <div>HomePage</div>
+    <>
+      <Header />
+      HomePage
+    
+    
+    
+    </>
   )
 }
 
