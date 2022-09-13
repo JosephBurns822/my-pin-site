@@ -22,11 +22,4 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-{/* <Routes>
-        <Route exact path="/" element={<App />}>
-          <Route path="/collection" element={<Collection />} />
-          <Route path="/trading" element={<Trade />} />
-          <Route path="/store" element={<BuySell />} />
-          <Route path="/about" element={<AboutMe />} />
-        </Route>
-      </Routes> */}
+
