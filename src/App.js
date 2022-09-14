@@ -1,9 +1,6 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import HeaderNavigation from './components/HeaderNavigation';
-import PinCard from './components/PinCard';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import './styles/stylesheet.css';
+import {Routes, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Collection from './pages/Collection';
 import Trade from './pages/Trade';
