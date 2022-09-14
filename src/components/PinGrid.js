@@ -15,10 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function PinGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid item xs={3}>
-          <Item>xs=4</Item>
-        </Grid>
+      <Grid className="theGrid" container spacing={2}>
         <Grid item xs={3}>
           <Item>xs=4</Item>
         </Grid>
