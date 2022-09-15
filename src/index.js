@@ -4,10 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter}from "react-router-dom";
-import Collection from './pages/Collection';
-import Trade from './pages/Trade';
-import BuySell from './pages/BuySell';
-import AboutMe from './pages/AboutMe';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
