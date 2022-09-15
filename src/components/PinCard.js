@@ -6,6 +6,12 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 const PinCard = () => {  
+  const [pinData, setPinData] = React.useState(null)
+
+  // React.useEffect(() => {
+  //   setPinData(() => pinData.map(data))
+  // })
+
   return (    
     <Card sx={{ maxWidth: 345 }}>      
       <CardActionArea>        
