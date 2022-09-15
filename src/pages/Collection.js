@@ -7,6 +7,7 @@ const Collection = () => {
   return (
     <>
       <Header />
+      <div> Collection </div>
       <PinGrid />
       <Footer />
     </>

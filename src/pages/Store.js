@@ -6,6 +6,7 @@ const BuySell = () => {
   return (
     <>
       <Header />
+      <div> Store </div>
       <Footer />
     </>
   )
