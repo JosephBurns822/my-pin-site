@@ -11,7 +11,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ['Collection', 'Store', 'About', 'FAQ'];
+const pages = ['Store', 'About', 'FAQ'];
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -35,10 +35,10 @@ const Header = () => {
 
   return (
     <AppBar position="static"
-            sx={{
-              backgroundColor: '#7851a9',
-              margin: 0
-            }}>
+      sx={{
+        backgroundColor: '#7B1FA2',
+        margin: 0
+      }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
