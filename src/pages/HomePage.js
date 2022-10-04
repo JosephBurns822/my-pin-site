@@ -60,7 +60,11 @@ const HomePage = () => {
                   color="secondary"
                   component={Link}
                   to="/Store">Store</Button>
-                <Button variant="outlined" color="secondary">FAQ</Button>
+                <Button
+                  variant="outlined"
+                  color="secondary"
+                  component={Link}
+                  to="/faq">FAQ</Button>
               </Stack>
             </Container>
           </Box>
