@@ -9,7 +9,7 @@ const FAQ = () => {
       <div> FAQ </div>
       <Footer />
     </>
-    
+
   )
 }
 
