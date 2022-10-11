@@ -5,11 +5,11 @@ import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 
-const TradeForm = () => {
+const AddressForm = () => {
     return (
-        <>
+        <React.Fragment>
             <Typography variant="h6" gutterBottom>
-                Request
+                Shipping address
             </Typography>
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={6}>
@@ -100,12 +100,12 @@ const TradeForm = () => {
                 <Grid item xs={12}>
                     <FormControlLabel
                         control={<Checkbox color="secondary" name="saveAddress" value="yes" />}
-                        label="Use this address for trade request"
+                        label="Use this address for payment details"
                     />
                 </Grid>
             </Grid>
-        </>
+        </React.Fragment>
     );
 }
 
-export default TradeForm
+export default AddressForm

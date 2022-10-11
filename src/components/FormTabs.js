@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import PurchaseForm from './PurchaseForm';
-import TradeForm from './TradeForm';
+import TradeRequest from './TradeRequest';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -65,7 +65,7 @@ export default function BasicTabs() {
         <PurchaseForm />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <TradeForm />
+        <TradeRequest />
       </TabPanel>
     </Box>
   );
